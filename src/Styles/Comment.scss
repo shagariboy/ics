@@ -1,7 +1,7 @@
 @use "variables" as *;
 @use "mixins" as *;
 
-.comment-container {
+.comment_container {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -125,7 +125,7 @@
                 }
             }
 
-            .update-btn {
+            .updateBtn {
                 align-self: flex-end;
                 width: max-content;
                 color: $white;
@@ -208,7 +208,7 @@
         margin-left: 15px;
         gap: 15px;
 
-        .comment-container {
+        .comment_container {
             width: 100%;
 
             .comment {

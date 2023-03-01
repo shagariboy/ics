@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import "./Components/Styles/App.scss";
+import "src/Styles/App.scss";
 
 import Comment from "./Components/Comment";
 import AddComment from "./Components/CommentAdd";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./Styles/AddComment.scss";
+import "../Styles/AddComment.scss";
 
 const AddComment = ({ buttonValue, addComments, replyingTo }) => {
   const replyingToUser = replyingTo ? `@${replyingTo}, ` : "";

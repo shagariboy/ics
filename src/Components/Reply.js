@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import "src/Styles/Comment.scss";
+import "../Styles/Comment.scss";
 
-import AddComment from "./AddComment";
-import DeleteModal from "./DeleteModal";
+import AddComment from "./CommentAdd";
+import DeleteModal from "./ModalDelete";
 
-import { CommentHeader, CommentFooter, CommentVotes } from "./commentParts";
+import { CommentHeader, CommentFooter, CommentVotes } from "./CommentParts";
 
 const Reply = ({
   commentData,

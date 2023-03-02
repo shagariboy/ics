@@ -1,4 +1,4 @@
-import "./Styles/DeleteModal.scss";
+import "../Styles/DeleteModal.scss";
 
 const ModalDelete = ({ setDeleting, deleteComment, setDeleteModalState }) => {
   const cancelDelete = () => {

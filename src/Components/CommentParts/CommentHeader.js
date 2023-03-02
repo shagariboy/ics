@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { commentPostedTime } from "../../utils";
+import { commentPostedTime } from "../../utilities";
 
 import CommentBtn from "./CommentBtn";
 

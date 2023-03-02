@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import "src/Styles/Comment.scss";
+import "../Styles/Comment.scss";
 
-import AddComment from "./AddComment";
-import ReplyContainer from "./ReplyContainer";
-import DeleteModal from "./DeleteModal";
+import AddComment from "./CommentAdd";
+import ReplyContainer from "./ContainerReply";
+import DeleteModal from "./ModalDelete";
 
 import { CommentHeader, CommentFooter, CommentVotes } from "./commentParts";
 

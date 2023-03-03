@@ -2,4 +2,4 @@
 
 # Still in development
 
-![Design preview for the Launch countdown timer coding challenge](src\Assets\images\screenshot.png)
+![Design preview for the Launch countdown timer coding challenge](src/Assets/images/screenshot.png)
